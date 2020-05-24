@@ -1,0 +1,17 @@
+https://testerhome.com/topics/19462
+katalon recorder:
+https://www.katalon.com/resources-center/blog/katalon-automation-recorder/
+
+定位技巧：https://www.cnblogs.com/haifeima/p/10138154.html
+chrome的定位技巧，在console下可以执行两个特别的函数
+$x('xpath表达式')
+$x('//*[@data-toggle="dropdown" and @class="btn btn-default"]')
+$x('//*[text()[contains(., "目录")]]')
+
+$('css表达式')
+$('.toc-container .btn.btn-default')
+$('.btn.btn-default[data-toggle=dropdown]')
+
+js定位
+document.getElementById
+document.getElementsByXXX

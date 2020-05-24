@@ -1,0 +1,6 @@
+{
+  "test_testerhome.py": true,
+  "test_testerhome.py::TestTesterHome::()::test_cookie": true,
+  "test_testerhome.py::TestTesterHome::()::test_execute": true,
+  "test_testerhome.py::TestTesterHome::()::test_mtsc2019": true
+}

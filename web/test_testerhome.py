@@ -1,9 +1,5 @@
-import json
-from time import sleep
-
-from web.web_pages.home_page import HomePage
-from web.base.base_page import BasePage
 from web.base.base_test_case import BaseTestCase
+from web.web_pages.home_page import HomePage
 
 
 class TestTesterHome(BaseTestCase):

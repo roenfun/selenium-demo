@@ -25,7 +25,7 @@ class TestXueQiu(BaseTestCase):
         profile = ProfilePage(self.driver)
         profile.login()
         selected = profile.gotoSelected()
-        # selected.select("alibaba", "1688")
+        selected.select("alibaba", "1688")
 
     def test_log(self):
         self.log.warning("warning demo")

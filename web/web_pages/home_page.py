@@ -1,7 +1,7 @@
 import time
 
 from web.base.base_page import BasePage
-from web.web_pages.SearchPage import SearchPage
+from web.web_pages.search_page import SearchPage
 from selenium.webdriver.common.by import By
 
 

@@ -1,8 +1,8 @@
-from web.base import base_page
-from web.web_pages.SelectedPage import SelectedPage
+from web.base.base_page import BasePage
+from web.web_pages.select_page import SelectedPage
 
 
-class ProfilePage(base_page):
+class ProfilePage(BasePage):
 
     def login(self):
         print(self.driver.get_cookies())
